@@ -1,0 +1,61 @@
+body{
+  font-family: Sans-Serif;
+  color: #3c3939;
+  background-color: #f1f1f1;
+}
+h1{
+  font-size: 20px;
+}
+.form{
+  margin: 20px auto;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+}
+input{
+  font-size: inherit;
+  display: block;
+  outline: none;
+  margin: auto;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.content p{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.log p{
+  font-style: normal;
+  text-align: center;
+}
+.content{
+    padding-left: 10px;
+}
+.content input{
+  padding: 10px;
+  padding-left: 10px;
+}
+
+.button {
+  background-color: #ff9900;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 520px;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+

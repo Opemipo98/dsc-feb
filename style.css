@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+  color: #3c3939;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.header{
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-family: 'Courier New',Sans-Serif;
+  
+}
+.header ul li{
+  display: inline;
+  padding-right: 12px;
+  font-size: 15px;
+  font-weight: 900;
+}
+.card{
+  width: auto;
+  margin: 40px;
+  margin-left: 4%;
+  margin-right: 0;
+}
+.profile-card{
+  float: left;
+  width: 330px;
+  height: 320px;
+  margin-bottom: 3px;
+  padding-bottom: 0;
+  display: flex;
+  background: url(image.jpg) no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+  border-radius: 6px;
+}
+.content-card{
+  width: auto;
+  float: right;
+  margin-left: 0;
+  margin-right: 25px;
+  margin: 40px;
+  background: #ffffe6;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+  border-radius: 6px;
+}
+.image-container{
+  width: 300px;
+  padding: 10px;
+  position: relative;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid #4caf50;
+}
+.info{
+  color: #4b4fe2;
+  margin-right: 16px;
+}
+.main-container{
+  width: 300px;
+  background: rgb(0, 1, 0, 0.9);
+  color: #fff;
+  float: left;
+ padding: 15px;
+ border-radius: 6px;
+}
+.skill-bar{
+  background-color: #fff;
+  border-radius: 16px;
+}
+.progress-bar{
+  padding: 0.1em 16px;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #4b4fe2;
+}
+.image-container h2{
+  position: absolute;
+  left: 15px;
+  bottom: -15px;
+  color: black;
+  font-weight: bolder;
+  font-style: oblique;
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+}
+h3{
+  margin: 0;
+  padding-left: 25px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 20px;
+}
+.content-card p{
+  padding-left: 30px;
+  font-family: Segoe UI;
+  font-style: italic;
+  font-size: 25px;
+  margin-block-start: 0;
+  
+}
+.tag{
+  float: right;
+  padding: 10px;
+  
+}
+.tag li a img{
+  margin: 6px;
+  width: 40px;
+  height: 40px;
+
+}
+.link li{
+  padding: 0;
+  padding-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+.content{
+  height: auto;
+  padding-bottom: 20px;
+}
+.row {
+  display: flex;
+}
